@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>Survey Form Design</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+
+
+    </head>
+    
+
+<body>
+
+
+    <div class="box">
+        <h1><b>Personal details</b></h1>
+
+        <form name="myform"  action="survey.php" method="POST" >
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Enter Name " required="">
+
+
+            <p>Role</p>
+                <select name="role" id="role">
+                  <option value="student">Student</option>
+                  <option value="working">Working Professional</option>
+                  <option value="senior_citizen">Senior citizen</option>
+                </select>
+
+                <p>Age</p>
+                <input type="number" name="age" placeholder="Enter  age" required="">
+                
+          
+          <p>Gender</p>
+            <!-- <input type="text" name="name" placeholder="Enter Name " required=""> -->
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="others">Others</option>
+              </select>
+            <input type="submit" value="Submit" />
+
+            <br><br>
+            
+
+        </form>
+        
+    </div>
+
+    
+
+</body>
+</html>
